@@ -21,12 +21,13 @@ ul.nav li {
     font-size: 40px;
     padding-right: 30px;
     text-decoration: underline;
+    color: aliceblue;
     
 
 }
 
 .header {
-    background-color: steelblue;
+    background-color: rgb(0, 62, 112);
     border: 10px solid black; 
     max-height: 150px;
 }
@@ -45,11 +46,34 @@ ul.nav li {
 }
 box {
     position:relative ;
-    left: 35%;
+    left: 15%;
     float: left;
     width: 450px;
     height: 450px;
     border: 10px solid black;
     padding: 10px;
     margin: 10px;
+}
+box1 {
+    position:relative ;
+    left: 30%;
+    float: left;
+    width: 450px;
+    height: 450px;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+box2 {
+    position:relative ;
+    left: 30%;
+    bottom: 30%;
+    float: left;
+    width: 450px;
+    height: 450px;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
 }
