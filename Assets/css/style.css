@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: blanchedalmond;
+    background-color: snow;
 }
 
 ul.nav {
@@ -25,6 +25,12 @@ ul.nav li {
     
 
 }
+.content{
+    overflow:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
 
 .header {
     background-color: rgb(0, 62, 112);
@@ -38,42 +44,82 @@ ul.nav li {
 }
 
 .section {
-    max-block-size: 100% ;
-    max-height: max-content;
-    max-width: 100%;
-    padding: 15px;
-    margin: 15px;
+    height: 225px;
+    bottom: 10px;
+    background-color: crimson;
+    margin: 1%;
 }
-box {
-    position:relative ;
-    left: 15%;
-    float: left;
-    width: 450px;
-    height: 450px;
-    border: 10px solid black;
-    padding: 10px;
-    margin: 10px;
-}
-box1 {
-    position:relative ;
-    left: 30%;
-    float: left;
-    width: 450px;
-    height: 450px;
-    border: 10px solid black;
-    padding: 10px;
-    margin: 10px;
+.column1 {
+    height: 300px;
+    bottom: 10px;
+    width: 30%;
+    font-size: 100px;
+    margin: .5%;
+    text-align: end;
+    
 }
 
-box2 {
-    position:relative ;
-    left: 30%;
-    bottom: 30%;
+.column2 {
+    height: 300px;
+    bottom: 10px;
+    width: 30%;
+    font-size: 100px;
+    margin: .5%;
+    text-align: end;
+    
+}
+.column3{
+    height: 300px;
+    bottom: 10px;
+    width: 30%;
+    font-size: 50px;
+    margin: .5%;
+    text-align: end;
+}
+
+.column1,.column4{
+    height: 300px;
+    bottom: 10px;
+}
+
+.column2,.column5{
+    height: 700px;
+    bottom: 10px;
+}
+
+.column3,.column6{
+    height: 100px;
+    bottom: 10px;
+}
+
+a {
+    color: aliceblue;
+}
+.column4{
+
     float: left;
-    width: 450px;
-    height: 450px;
-    border: 10px solid black;
-    padding: 10px;
-    margin: 10px;
-    flex-wrap: wrap;
+    width: 60%;
+    background-color:bisque;
+    font-size: 32px;
+    text-align: justify;
+    margin: .5%;
+}
+.column5 {
+
+    float: left;
+    width: 60%;
+    background-color:bisque;
+    font-size: 100px;
+    margin: .5%;
+}
+.column6 {
+
+    float: left;
+    width: 60%;
+    background-color:bisque;
+    font-size: 100px;
+    margin: .5%;
+}
+.column1,.column2,.column3{
+    border-right: 5px seagreen solid;
 }
