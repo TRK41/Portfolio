@@ -16,10 +16,9 @@ body {
 
 ul.nav {
     list-style: none;
-    position: relative;
-    left: 70%;
+    display: flex;
     flex-wrap: wrap;
-
+    justify-content: flex-end;
 }
 
 ul.nav li {
@@ -35,11 +34,13 @@ ul.nav li {
 ul.nav li :hover{
 color: chartreuse;
 }
+
+
 .content {
     overflow: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-right: 5%;
     margin-left: -5%;
     margin-top: 3%;
@@ -114,13 +115,17 @@ a {
     color: aliceblue;
 }
 
+.info a {
+    color: black;
+}
 .column4 {
 
     float: left;
     width: 60%;
     background-color: bisque;
-    font-size: 32px;
+    font-size: 22px;
     text-align: justify;
+    line-height: 2;
     margin: .5%;
     
 }
@@ -233,3 +238,27 @@ a {
     left: 90px;
 
 }
+ul.info {
+    list-style: none;
+    position: relative;
+    left: 7%;
+    bottom: 34%;
+    flex-wrap: wrap;
+
+}
+
+ul.info li {
+    display: inline-block;
+    font-size: 40px;
+    padding-right: 19px;
+    text-decoration: underline;
+    color: black;
+
+
+}
+
+ul.info li :hover{
+color: chartreuse;
+}
+
+@media screen and (max-width: 320px) { @viewport { width: 320px; } }
