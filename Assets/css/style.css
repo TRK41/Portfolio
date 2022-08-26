@@ -37,6 +37,7 @@ ul.nav li {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+   
 }
 
 .header {
@@ -116,6 +117,7 @@ a {
     font-size: 32px;
     text-align: justify;
     margin: .5%;
+    
 }
 
 .column5 {
@@ -143,6 +145,11 @@ a {
 .column3 {
     border-right: 5px seagreen solid;
 }
+.column4,
+.column5,
+.column6 {
+    border: 5px solid black;
+}
 
 .box section {
     width: 400px;
@@ -150,6 +157,7 @@ a {
     margin: .5%;
     display: flex;
     font-size: 50px;
+    border: 5px solid black;
 }
 
 .box {
@@ -161,17 +169,18 @@ a {
 }
 
 .box img{
-    max-height: 200px;
+    max-height: 262px;
+    
 }
 .box1 {
-    background-color: blue;
+    background-color: darkorange;
 
 }
 
 .box2 {
     float: left;
     right: -100px;
-    background-color: red;
+    background-color: darkslateblue;
 }
 
 .box3 {
@@ -184,4 +193,29 @@ a {
     float: left;
     right: -100px;
     background-color: yellow;
+}
+
+.box1 img {
+    width: 389px;
+    height: 400px;
+
+}
+
+.box2 img{
+    max-width: 389px;
+    
+}
+
+.box3 img{
+    max-width: 389px;
+    padding-top: 8%;
+    padding-left: 3%;
+}
+
+.box4 img {
+    padding-top: 5%;
+    max-width: 389px;
+    position:relative;
+    left: 90px;
+
 }
